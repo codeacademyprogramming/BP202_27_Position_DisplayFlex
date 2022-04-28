@@ -1,0 +1,36 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.boxes{
+    display: flex;
+    flex-wrap: wrap;
+    height: 1000px;
+    background-color: gray;
+}
+
+.boxes .box{
+    width: 270px;
+
+    height: 150px;
+    border:1px solid;
+}
+
+.bg-1{
+    background-color: black;
+}
+.bg-2{
+    background-color: rgb(164, 65, 65);
+}
+.bg-3{
+    background-color: rgb(54, 197, 90);
+}
+.bg-4{
+    background-color: rgb(97, 17, 121);
+}
+.bg-5{
+    background-color: rgb(219, 210, 41);
+}
